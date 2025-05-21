@@ -1,6 +1,7 @@
 p {
     color: blue;
 }
+/* styling for all the paragraph texts */
 
 h3 {
     color: green;
@@ -10,11 +11,13 @@ h3 {
     background-color: yellow;
     color: red;
 }
+/* styling to highlight the sections that I want highlighted */
 
 #quote {
     font-style: italic;
     color: purple;
 }
+/* making the quotes italicized */
 
 div {
     background-color: lightgray;
@@ -23,10 +26,11 @@ div {
     margin: 20px;
 }
 
-h1  {
+h1  { 
     color: darkblue;
     text-align: center;
 }
+/* styling for the header */
 h2 {
     color: darkgreen;
     text-align: center;
@@ -45,6 +49,7 @@ footer {
     padding: 10px;
     text-align: center;
 }
+/* footer styling */
 
 img {
     max-width: 100%;
@@ -54,3 +59,4 @@ img {
     margin: 20px auto;
     display: block;
 }
+/* styling for the image */
