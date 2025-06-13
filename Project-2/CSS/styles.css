@@ -1,5 +1,5 @@
 body {
-  background-image: url('/activities-jacksonsandberg/PhotoTourProject/images/background.avif');
+  background-image: url('/activities-jacksonsandberg/Project-2/images/background.avif');
   background-size: cover;
   background-repeat: no-repeat;
   background-attachment: fixed;
@@ -36,7 +36,7 @@ ul.bullet li::before {
   top: 4px;
   height: 18px;
   width: 18px;
-  background-image: url('/activities-jacksonsandberg/PhotoTourProject/images/bullet.webp');
+  background-image: url('/activities-jacksonsandberg/Project-2/images/bullet.webp');
   background-size: cover;
   background-repeat: no-repeat;
 }
