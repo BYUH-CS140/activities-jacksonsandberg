@@ -12,6 +12,8 @@ document.getElementById('randomColor').addEventListener('click', function() {
 
 function displayColor(color) {
     document.getElementById('displayArea').style.backgroundColor = color;
+    document.body.style.backgroundColor = color; // Part 1: Change full page background
+    document.getElementById('colorValue').textContent = color; // Part 2: Show hex
 }
 
 function addToHistory(color) {
