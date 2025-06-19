@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Student Housing Quiz Game</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script>
+    function generateResult() {
+      const results = [
+        "You need a beachside bungalow!",
+        "You’d love a quiet studio near campus.",
+        "You belong in a social student house with roommates!",
+        "You’d enjoy a private guest house in Laie."
+      ];
+      const randomResult = results[Math.floor(Math.random() * results.length)];
+      document.getElementById("result").innerText = randomResult;
+    }
+  </script>
+</head>
+<body>
+  <header>
+    <h1>BYU–Hawaii Student Housing</h1>
+    <nav>
+      <a href="index.html">Home</a>
+      <a href="about.html">About</a>
+      <a href="game.html">Quiz Game</a>
+    </nav>
+  </header>
+
+  <main>
+    <h2>What’s Your Housing Vibe?</h2>
+    <button onclick="generateResult()">Take the Quiz</button>
+    <p id="result" style="font-weight: bold; margin-top: 10px;"></p>
+  </main>
+</body>
+</html>
