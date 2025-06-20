@@ -1,0 +1,62 @@
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fff9f0;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+  }
+  
+  header {
+    background-color: #f4e2d8;
+    padding: 30px;
+    text-align: center;
+    border-bottom: 2px dashed #d291bc;
+  }
+  
+  h1 {
+    font-size: 2.5em;
+    margin-bottom: 10px;
+  }
+  
+  .intro, .word-list, .gallery {
+    padding: 20px;
+    max-width: 800px;
+    margin: auto;
+  }
+  
+  .gallery {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  
+  .gallery img {
+    max-width: 90%;
+    height: auto;
+    margin-top: 20px;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+  }
+  
+  .gallery figcaption {
+    margin-bottom: 20px;
+    font-style: italic;
+    font-size: 0.95em;
+    color: #555;
+    text-align: center;
+  }
+  
+  .word-list ul {
+    list-style-type: square;
+    padding-left: 20px;
+  }
+  
+  footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #f4e2d8;
+    font-size: 0.9em;
+    color: #777;
+  }
+  
