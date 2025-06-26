@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Feedback - BYU–Hawaii Student Housing</title>
+  <link rel="stylesheet" href="css/styles.css" />
+  <script src="scripts/feedback.js" defer></script>
+</head>
+<body class="center-text">
+  <header>
+    <img src="images/byulogo.png" alt="Left Image" class="header-img left">
+    <div class="header-center">
+      <h1>BYU–Hawaii Student Housing</h1>
+      <nav>
+        <a href="index.html">Home</a>
+        <a href="about.html">About</a>
+        <a href="game.html">Quiz Game</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="resources.html">Resources</a>
+      </nav>
+    </div>
+    <img src="images/byulogo.png" alt="Right Image" class="header-img right">
+  </header>
+
+  <div class="content">
+    <main>
+      <section>
+        <h2>We value your feedback!</h2>
+        <p>Please fill out the form below to share your thoughts about BYU–Hawaii student housing.</p>
+        <form id="feedbackForm" action="/submit-feedback" method="POST" class="feedback-form">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required>
+
+          <label for="email">Email:</label>
+          <input type="email" id="email" name="email" required>
+
+          <label for="feedback">Feedback:</label>
+          <textarea id="feedback" name="feedback" rows="5" required></textarea>
+
+          <button type="submit">Submit Feedback</button>
+        </form>
+      </section>
+    </main>
+  </div>
+
+  <footer>
+    <p>&copy; 2025 BYU–Hawaii Student Housing</p>
+    <p><a href="https://housing.byuh.edu/" target="_blank" rel="noopener noreferrer">Visit BYU Hawaii Housing Services</a></p>
+  </footer>
+</body>
+</html>

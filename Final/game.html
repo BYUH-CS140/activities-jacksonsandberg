@@ -4,21 +4,9 @@
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>Student Housing Quiz Game</title>
-  <link rel="stylesheet" href="styles.css" />
-  <script>
-    function generateResult() {
-      const results = [
-        "You need a beachside bungalow!",
-        "You’d love a quiet studio near campus.",
-        "You belong in a social student house with roommates!",
-        "You’d enjoy a private guest house in Laie."
-      ];
-      const randomResult = results[Math.floor(Math.random() * results.length)];
-      document.getElementById("result").innerText = randomResult;
-    }
-  </script>
+  <link rel="stylesheet" href="css/styles.css" />
 </head>
-<body>
+<body class="center-text">
   <header>
     <img src="images/byulogo.png" alt="Left Image" class="header-img left">
     <div class="header-center">
@@ -27,6 +15,8 @@
         <a href="index.html">Home</a>
         <a href="about.html">About</a>
         <a href="game.html">Quiz Game</a>
+        <a href="feedback.html">Feedback</a>
+        <a href="resources.html">Resources</a>
       </nav>
     </div>
     <img src="images/byulogo.png" alt="Right Image" class="header-img right">
@@ -44,5 +34,6 @@
     <p>&copy; 2025 BYU–Hawaii Student Housing</p>
     <p>Find your perfect house!</p>
   </footer>
+  <script src="scripts/quiz.js" defer></script>
 </body>
 </html>
