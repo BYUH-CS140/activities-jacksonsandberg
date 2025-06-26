@@ -132,7 +132,7 @@ main {
   display: flex;
   flex-direction: column;
   gap: 0.8em;
-  box-sizing: border-box;
+  box-sizing: border-box; 
 }
 
 
