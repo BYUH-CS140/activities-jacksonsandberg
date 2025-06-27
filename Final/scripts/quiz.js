@@ -1,4 +1,3 @@
-// scripts/quiz.js
 function generateResult() {
     const results = [
       "You need a beachside bungalow!",

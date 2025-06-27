@@ -2,7 +2,7 @@
   box-sizing: border-box;
 }
 
-/* Reset & Layout */
+
 html, body {
   height: 100%;
   margin: 0;
@@ -26,7 +26,7 @@ html, body {
   justify-content: center;
 }
 
-/* Header */
+
 header {
   background-color: #84122b;
   color: white;
@@ -73,12 +73,12 @@ nav a {
   display: inline-block;
 }
 
-/* Main */
+
 main {
   padding: 1em;
 }
 
-/* Grid Listings */
+
 .grid-listings {
   display: grid;
   grid-template-columns: 1fr;
@@ -120,7 +120,7 @@ main {
   width: 100%;
 }
 
-/* Feedback Form */
+
 .feedback-form {
   background-color: rgba(255, 255, 255, 0.95);
   padding: 1em;
@@ -167,7 +167,7 @@ main {
   background-color: #a51d3a;
 }
 
-/* Footer */
+
 footer {
   background-color: #84122b;
   color: white;
@@ -176,7 +176,7 @@ footer {
   margin-top: auto;
 }
 
-/* Mobile Fixes */
+
 @media (max-width: 600px) {
   .header-img {
     display: none;
